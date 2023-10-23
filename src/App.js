@@ -1,25 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Location_ from './locations';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <div className="TextTable">
+        <div><h1>Star Explorer</h1></div>
+        <Location_ />
+      </div>
     </div>
   );
 }
+
+/*<div><p id="PName">Location: </p></div>
+        <div><p>{locations["1"]}</p></div>
+        */
+
+/*<tr>
+          <td>
+            <h1>Star Explorer</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p id="description"></p>
+          </td>
+        </tr>*/
 
 export default App;

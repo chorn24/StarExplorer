@@ -1,3 +1,95 @@
+
+.BodySpace {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/007/120/314/non_2x/galaxy-background-with-falling-star-space-galaxy-illustration-free-vector.jpg ");
+  background-size: cover;
+}
+
+
+
+.TextTable {
+  background-color: rgb(60, 27, 60);
+  margin-left: auto;
+  margin-right: auto;
+  width: 450pt;
+  height: 200pt;
+  box-shadow: 0pt 0pt 100pt rgb(215, 136, 215);
+  color: white;
+  border-radius: 40pt;
+  text-shadow: 0 0 5px rgb(215, 136, 215), 0 0 20px #000, 0 0 30px #000;
+  padding: 25pt;
+}
+
+.Buttons {
+  background-color: #222222;
+  border-radius: 10pt;
+  
+}
+
+.Buttons:hover {
+  cursor:pointer;
+  box-shadow: 0pt 0pt 20pt rgb(255, 255, 255);
+  transition: 2s;
+  
+  
+}
+
+
+.Green {
+  color: rgb(169, 255, 169);
+  text-shadow: 0 0 5px rgb(169, 255, 169), 0 0 20px #000, 0 0 30px #000;
+}
+
+.Purple {
+  color: rgb(175, 83, 228);
+  text-shadow: 0 0 5px rgb(175, 83, 228), 0 0 20px #000, 0 0 30px #000;
+}
+
+.Light_Blue {
+  color: rgb(144, 209, 229);
+  text-shadow: 0 0 5px rgb(144, 209, 229), 0 0 20px #000, 0 0 30px #000;
+}
+
+.Blue {
+  color: rgb(145, 144, 229);
+  text-shadow: 0 0 5px rgb(145, 144, 229), 0 0 20px #000, 0 0 30px #000;
+}
+
+.Yellow {
+  color: rgb(226, 229, 144);
+  text-shadow: 0 0 5px rgb(226, 229, 144), 0 0 20px #000, 0 0 30px #000;
+}
+
+.Cyan {
+  color: rgb(62, 255, 249);
+  text-shadow: 0 0 5px rgb(62, 255, 249), 0 0 20px #000, 0 0 30px #000;
+}
+
+.Magenta {
+  color: rgb(255, 62, 178);
+  text-shadow: 0 0 5px rgb(255, 62, 178), 0 0 20px #000, 0 0 30px #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.STool {
+  border: white 3pt solid;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
